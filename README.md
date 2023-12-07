@@ -11,6 +11,7 @@ Paraminator is a Firefox extension that modifies URLs by replacing query paramet
 - Customizable parameter values via a user-editable JSON file
 - Logging for visited domains and their associated parameters
 - User interface for controlling which parameters are randomized
+- Written largely by GPT4, because I'm not a web developer and JS isn't Python
 
 ## Installation
 
