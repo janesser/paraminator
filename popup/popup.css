@@ -1,0 +1,107 @@
+/* popup.css - Styles for Paraminator popup UI */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    color: #333;
+    background-color: #fff;
+    min-width: 250px;
+  }
+  
+  header {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  h1 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Common styles for buttons */
+  button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #06c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Toggle switch for enabling/disabling the extension */
+  .toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+  }
+  
+  .toggle-switch input {
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 25px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 21px;
+    width: 21px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #06c;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(25px);
+  }
+  
+  /* Domain and parameter log styles */
+  .log-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .domain-item {
+    padding: 5px;
+    margin: 5px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .param-item {
+    padding-left: 20px;
+  }
+  
+  /* Style the checkboxes */
+  input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  
+  /* End of popup.css */
