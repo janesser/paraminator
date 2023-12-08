@@ -10,8 +10,6 @@
         "linkdein",
         "instagram",
         "instgram",
-        "%20google",
-        "+facebook",
         "NULL",
         "UNDEFINED"
     ],
@@ -26,8 +24,6 @@
         "emial",
         "social",
         "socail",
-        "%20direct",
-        "+cpc",
         "NULL",
         "UNDEFINED"
     ],
@@ -39,8 +35,7 @@
         "spring_sale",
         "spring_sal",
         "NULL",
-        "UNDEFINED",
-        "%20"
+        "UNDEFINED"
     ],
     "utm_term": [
         "keyword",
@@ -69,8 +64,6 @@
         "parnter",
         "affiliate",
         "affilaite",
-        "%20affiliate",
-        "+newsletter",
         "NULL",
         "UNDEFINED"
     ],
@@ -81,8 +74,6 @@
         "orgnaic",
         "paid",
         "padi",
-        "%20paid",
-        "+paid+",
         "NULL",
         "UNDEFINED"
     ],
@@ -119,7 +110,7 @@
     "keywords": [
         "kittens",
         "firefox",
-        "my little pony",
+        "my+little+pony",
         "weather",
         "facebook",
         "google",
@@ -132,11 +123,10 @@
         "UNDEFINED"
     ],
     "variant": [
-        "35489196",
+        "a",
         "b",
-        "old",
-        "98169089",
-        "1",
-        "4"
+        "8991981327",
+        "98130802",
+        "1006198536482"
     ]
 }

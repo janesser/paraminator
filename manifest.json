@@ -1,39 +1,49 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Paraminator",
   "version": "1.0.0",
   "description": "Modifies URL parameters with random values from a predefined list or a random string.",
   "default_locale": "en",
+  
   "icons": {
     "48": "images/icon-48.png",
     "128": "images/icon-128.png"
   },
+
   "permissions": [
     "activeTab",
     "storage",
-    "<all_urls>",
     "webRequest",
-    "webRequestBlocking"
+    "webRequestBlocking",
+    "scripting",
+    "menus.overrideContext"
   ],
-  "background": {
-    "scripts": ["lib/utils.js", "background_scripts/background.js"],
-    "persistent": false
+
+  "action": {
+    "default_icon": "images/icon-48.png",
+    "default_popup": "popup/popup.html",
+    "default_title": "Paraminator"
   },
+
+  "options_ui": {
+    "page": "options/options.html"
+  },
+
+  "web_accessible_resources": [
+    {
+      "resources": ["params.json"],
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ],
+
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["http://*/*", "https://*/*"],
       "js": ["content_scripts/content.js"]
     }
   ],
-  "browser_action": {
-    "default_icon": "images/icon-48.png",
-    "default_popup": "popup/popup.html"
-  },
-  "options_ui": {
-    "page": "options/options.html",
-    "chrome_style": true
-  },
-  "web_accessible_resources": [
-    "params.json"
-  ]
+
+  "background": {
+    "scripts": ["background_scripts/background.js"]
+  }
 }
