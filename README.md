@@ -4,6 +4,9 @@
 
 Paraminator is a Firefox extension that modifies URLs by replacing query parameters with plausible misinformation. This tool focuses on parameters typically used for tracking, like `utm_source` and `utm_medium`, but it can also handle any other parameters that turn up in a URL.
 
+## Status
+Borked, but kinda working.
+
 ## Features
 
 - Randomize UTM parameters on the fly
