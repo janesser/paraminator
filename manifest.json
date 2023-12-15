@@ -1,46 +1,17 @@
 {
   "manifest_version": 3,
   "name": "Paraminator",
-  "version": "1.0.0",
-  "description": "Modifies URL parameters with random values from a predefined list or a random string.",
+  "version": "1.0",
   "default_locale": "en",
   
-  "icons": {
-    "48": "images/icon-48.png",
-    "128": "images/icon-128.png"
-  },
-
+  
   "permissions": [
-    "activeTab",
-    "storage",
     "webRequest",
-    "webRequestBlocking",
-    "scripting",
-    "menus.overrideContext"
+    "webRequestBlocking"
   ],
 
-  "action": {
-    "default_icon": "images/icon-48.png",
-    "default_popup": "popup/popup.html",
-    "default_title": "Paraminator"
-  },
-
-  "options_ui": {
-    "page": "options/options.html"
-  },
-
-  "web_accessible_resources": [
-    {
-      "resources": ["params.json"],
-      "matches": ["http://*/*", "https://*/*"]
-    }
-  ],
-
-  "content_scripts": [
-    {
-      "matches": ["http://*/*", "https://*/*"],
-      "js": ["content_scripts/content.js"]
-    }
+  "host_permissions": [
+    "<all_urls>"
   ],
 
   "background": {

@@ -1,4 +1,13 @@
-# Paraminator
+# Paraminator (temporary fork)
+Fork of: https://codeberg.org/alicewatson/paraminator
+
+This one is crucial https://discourse.mozilla.org/t/how-to-use-webrequest-with-manifest-v3/124008
+In a nutshell, permissions from manifest.json won't apply without manual intervention, especially `host_permissions`.
+
+Secondly redirecting listener can be called multiple times, even on its own output. Not sure what could break the circuit.
+
+See modified manifest.json and modified background.js which are working as supposed.
+
 
 ![Paraminator Banner](images/banner.png)
 
