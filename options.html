@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        label {
+            display: block;
+        }
+
+        .result-error {
+            color: red;
+        }
+
+        .result-okay {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="paraminator-options">
+        <label>url replace pattern
+            <textarea id="modifier" cols="40" rows="8" wrap="soft" required="true" autofocus="true"
+                placeholder="modifier JSON here."></textarea>
+        </label>
+        <input type="submit" value="Save" />
+        <label id="parse-result"></label>
+    </form>
+    <script src="options.js"></script>
+</body>
+
+</html>

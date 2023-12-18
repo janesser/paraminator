@@ -8,6 +8,7 @@ Secondly redirecting listener can be called multiple times, even on its own outp
 
 See modified manifest.json and modified background.js which are working as supposed.
 
+No storage access for temporary addon ID, added gecko.id.
 
 ![Paraminator Banner](images/banner.png)
 

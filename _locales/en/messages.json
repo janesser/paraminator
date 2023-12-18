@@ -1,34 +1,10 @@
 {
-    "extensionName": {
-      "message": "Paraminator",
-      "description": "The name of the extension."
-    },
-    "extensionDescription": {
-      "message": "Modifies URL parameters with random values from a predefined list or a random string.",
-      "description": "The description of the extension."
-    },
-    "popupTitle": {
-      "message": "Paraminator",
-      "description": "The title shown in the popup."
-    },
-    "enableExtensionLabel": {
-      "message": "Enable Paraminator",
-      "description": "Label for the option to enable the extension."
-    },
-    "clearLogButton": {
-      "message": "Clear Log",
-      "description": "Label for the button that clears the log of visited URLs."
-    },
-    "saveButton": {
-      "message": "Save",
-      "description": "Label for the save button in options page."
-    },
-    "optionsTitle": {
-      "message": "Options",
-      "description": "Title of the options page."
-    },
-    "parameterSettingsHeading": {
-      "message": "Parameter Settings",
-      "description": "Heading for the parameter settings section in options page."
-    }
+  "extensionName": {
+    "message": "Paraminator",
+    "description": "The name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Modifies URL parameters with random values from a predefined list or a random string.",
+    "description": "The description of the extension."
   }
+}
